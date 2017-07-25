@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>在 Node 中使用模板引擎做服务端渲染</title>
+</head>
+<body>
+  <p>姓名: {{name}}</p>
+  <p>年龄: {{age}}</p>
+  爱好:
+  <ul>
+    {{each hobby}}
+    <li>{{ $value }}</li>
+    {{/each}}
+  </ul>
+</body>
+</html>

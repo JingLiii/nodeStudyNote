@@ -1,0 +1,4 @@
+/node_modules/*
+/static-server/node_modules/*
+/static-server_Client/node_modules/*
+/nodejs-tutorial/code/node_modules/*
